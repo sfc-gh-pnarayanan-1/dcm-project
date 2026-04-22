@@ -1,0 +1,21 @@
+manifest_version: 1
+
+targets:
+  PROD:
+    account_identifier: SFCOGSOPS-SNOWHOUSE_AWS_US_WEST_2
+    project_name: DCM_ADMIN.PROJECTS.DEMO_PROJECT_PROD
+    project_owner: ACCOUNTADMIN
+    templating_config: PROD
+
+  DEV:
+    account_identifier: SFCOGSOPS-SNOWHOUSE_AWS_US_WEST_2
+    project_name: DCM_ADMIN.PROJECTS.DEMO_PROJECT_DEV
+    project_owner: ACCOUNTADMIN
+    templating_config: DEV
+
+templating:
+  configurations:
+    PROD:
+      env_suffix: ""
+    DEV:
+      env_suffix: "_DEV"

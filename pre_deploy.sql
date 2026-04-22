@@ -1,0 +1,11 @@
+--------------------------------------------------------------------
+-- PRE-DEPLOY COMPANION SCRIPT
+-- Run this BEFORE DCM plan/deploy
+-- Contains: External access integrations (required by procedures)
+--------------------------------------------------------------------
+
+-- External access integration used by CALL_CORTEX_AGENT procedure
+-- Uncomment and configure if deploying to a new environment:
+-- CREATE OR REPLACE EXTERNAL ACCESS INTEGRATION CORTEX_API_ACCESS
+--     ALLOWED_NETWORK_RULES = (...)
+--     ENABLED = TRUE;
