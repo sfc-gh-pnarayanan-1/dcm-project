@@ -6,3 +6,4 @@ DEFINE SCHEMA DEMO{{env_suffix}}.DT_DEMO;
 
 DEFINE SCHEMA DEMO{{env_suffix}}.RESTRO;
 
+DEFINE STAGE DEMO{{env_suffix}}.PUBLIC.YAML_INT_STG;
