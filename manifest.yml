@@ -7,13 +7,13 @@ targets:
   PROD:
     account_identifier: SFPSCOGS-PNARAYANAN_AWS_DEMO
     project_name: DCM_ADMIN.PROJECTS.DEMO_PROJECT_PROD
-    project_owner: ACCOUNTADMIN
+    project_owner: SVC_CURSOR_ROLE
     templating_config: PROD
 
   DEV:
     account_identifier: SFPSCOGS-PNARAYANAN_AWS_DEMO
     project_name: DCM_ADMIN.PROJECTS.DEMO_PROJECT_DEV
-    project_owner: ACCOUNTADMIN
+    project_owner: SVC_CURSOR_ROLE
     templating_config: DEV
 
 templating:
