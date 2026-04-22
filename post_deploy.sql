@@ -7,6 +7,20 @@
 --------------------------------------------------------------------
 
 --------------------------------------------------------------------
+-- GRANTS (not supported by DEFINE)
+--------------------------------------------------------------------
+
+GRANT USAGE ON DATABASE DEMO TO ROLE ACCOUNTADMIN;
+GRANT USAGE ON DATABASE DEMO TO ROLE CORTEX_USER_ROLE;
+GRANT USAGE ON DATABASE DEMO TO ROLE PUBLIC;
+
+--------------------------------------------------------------------
+-- INTERNAL STAGES (not supported by DEFINE)
+--------------------------------------------------------------------
+
+CREATE STAGE IF NOT EXISTS DEMO.PUBLIC.YAML_INT_STG;
+
+--------------------------------------------------------------------
 -- SEQUENCES
 --------------------------------------------------------------------
 
